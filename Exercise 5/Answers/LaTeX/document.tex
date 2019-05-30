@@ -1,0 +1,87 @@
+\documentclass{article}
+\usepackage{fullpage,graphicx}
+\usepackage{amsmath,amsfonts,amsthm,amssymb,multirow,xcolor,color}
+\usepackage{enumitem}
+\definecolor{applegreen}{rgb}{0.55, 0.71, 0.0}
+\definecolor{ao(english)}{rgb}{0.0, 0.5, 0.0}
+\begin{document}
+\noindent
+Mathematical Writing \hfill \textbf{Excercise V} \newline 
+{12-April-2019} \hfill Pouya Aghahoseini
+
+\noindent
+\rule{\linewidth}{0.4pt}
+\textbf{\large\color{blue} Exercise 1}   \textbf{Rewrite each symbolic sentence using the quantifier $\exists$.}
+
+	\begin{enumerate}
+		\item $Y \nsupseteq X \Leftrightarrow \exists x \in X, x \notin Y $
+		\item $ \# X>1 \Leftrightarrow \exists x,y \in X, x \neq y $
+		\item $ X \bigcap Y \neq \emptyset \Leftrightarrow \exists x \in X,y \in Y, x=y $
+		\item $ z \in X \times Y \Leftrightarrow \exists z =(x,y) , x\in X,y \in Y $
+		\item $ X \neq Y \Leftrightarrow (\exists x\in X, x \notin Y) \wedge (\exists y\in Y, y \notin X) $
+		\item $ \# (X \bigtriangleup Y)>0 \Leftrightarrow (\exists x\in X, x \notin Y) \wedge (\exists y\in Y, y \notin X) $
+	\end{enumerate}
+	
+\text{}\\
+\textbf{\large\color{blue} Exercise 2} \textbf{Write each sentence with symbols, using at least one quantifier.}
+
+\begin{enumerate}
+	\item 
+	The integer n is a cube. $ \Leftrightarrow \exists k \in Z, n=k^{3} $
+	\item 
+	The equation $f(x)=0$ has a rational solution. $ \Leftrightarrow \exists x \in Q, f(x)=0 $
+	\item 
+	The fraction $\frac{a}{b}$ is not reduced. $ \Leftrightarrow \nexists k \in Z, k|a , k|b$.
+	\item 
+	The unit circle has a rational point. $ \Leftrightarrow \exists x,y \in Q | x^{2} + y^{2} = 1$.
+	\item 
+	The polynomial $P(x)$ has no integer roots. $ \Leftrightarrow \nexists x \in Z | P(x) = 0 $.
+\end{enumerate}
+\text{}\\
+\textbf{\large\color{blue} Exercise 3} \textbf{The following expressions define sets; turn symbols
+	into words.}
+
+\begin{enumerate}
+	\item 
+	$ \{x \in N: \forall m,n \in N, (x|mn) \Rightarrow (x|m \vee x|n) \} $\\
+	\text{\color{ao(english)} The set of prime numbers, together with the integer 1.}
+
+	\item 
+	$ \{x \in N: \forall m \in N, x|m^{2} \Rightarrow x|m \} $\\
+	\text{\color{ao(english)} The set of natural numbers, except squres.}
+	
+	\item 
+	$ \{x \in N: \forall m \in N, x|m^{3} \Rightarrow x|m^{2} \} $\\
+	\text{\color{ao(english)} The set of natural numbers, except cubes.}
+\end{enumerate}
+
+\text{}\\
+\textbf{\large\color{blue} Exercise 4} \textbf{Decide if each sentence is true or false, hence write its negation with symbols. Then rewrite both with words.}
+
+\begin{enumerate}
+	\item 
+	$ \forall n \in N, \frac{1}{n} \notin N $\\
+	\text{\color{ao(english)} (False.) $ \exists n \in N, \frac{1}{n} \in N $}\\
+	\text{\color{ao(english)} The reciprocal of a natural number is not a natural number.}\\
+	\text{\color{ao(english)} There is a natural number whose reciprocal is also a natural number.}
+	
+	\item 
+		$ \forall n \in N, \sqrt{n} \in R\setminus Q $ \\
+		\text{\color{ao(english)} (False.) $ \exists n \in N, \sqrt{n} \in R\setminus Q $}\\
+		\text{\color{ao(english)} All natural numbers square roots are irrational.}\\
+		\text{\color{ao(english)} There is a natural number whose square roots is irrational.}
+		
+	\item 
+		$ \forall n \in Z, 2|n(n+1) $ \\
+		\text{\color{ao(english)} (True.) $ \forall n \in Z, 2\nmid n(n+1) $}\\
+		\text{\color{ao(english)} The product of each consecutive pair of integers is even.}\\
+		\text{\color{ao(english)} There exist a pair of consecutive integers which their product is odd.}
+		
+	\item 
+		$ \forall n \in N, \exists r \in Q, n< r^{2} <n+1 $ \\
+		\text{\color{ao(english)} (True.) $ \forall n \in N, \forall r \in Q, n< r^{2} <n+1 $}\\
+		\text{\color{ao(english)} There exists a square of a rational number between two consecutive natural numbers.}\\
+		\text{\color{ao(english)} The square of all rational numbers are between two consecutive natural numbers.}
+\end{enumerate}
+
+\end{document}
