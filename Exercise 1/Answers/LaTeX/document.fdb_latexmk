@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1559305851 "e:/Documents/GitHub/Mathematical-Writing/Exercise 1/Answers/LaTeX/document.tex" "e:/Documents/GitHub/Mathematical-Writing/Exercise 1/Answers/LaTeX/document.pdf" "document" 1559305854
+["pdflatex"] 1559305851 "e:/Documents/GitHub/Mathematical-Writing/Exercise 1/Answers/LaTeX/document.tex" "e:/Documents/GitHub/Mathematical-Writing/Exercise 1/Answers/LaTeX/document.pdf" "document" 1559305965
   "c:/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1538231705 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1538233286 3332 103109f5612ad95229751940c61aada0 ""
   "c:/texlive/2018/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1538232909 1536 02c06700a42be0f5a28664c7273f82e7 ""
@@ -49,12 +49,12 @@
   "c:/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1538241832 4216518 3ab882aef1e513d47cd58a128eca72db ""
   "c:/texlive/2018/texmf.cnf" 1538241569 673 4ae7b2f49cee444c5343a45b5d0f169c ""
   "document.aux" 1559305854 8 a94a2480d3289e625eea47cd1b285758 ""
-  "document.tex" 1550589173 4788 4346fe7025711c3995142efca5bdd22e ""
+  "document.tex" 1559305964 4788 4346fe7025711c3995142efca5bdd22e ""
   "e:/Documents/GitHub/Mathematical-Writing/Exercise 1/Answers/LaTeX/document.aux" 1559305854 8 a94a2480d3289e625eea47cd1b285758 ""
-  "e:/Documents/GitHub/Mathematical-Writing/Exercise 1/Answers/LaTeX/document.tex" 1550589173 4788 4346fe7025711c3995142efca5bdd22e ""
+  "e:/Documents/GitHub/Mathematical-Writing/Exercise 1/Answers/LaTeX/document.tex" 1559305964 4788 4346fe7025711c3995142efca5bdd22e ""
   (generated)
-  "document.aux"
-  "e:/Documents/GitHub/Mathematical-Writing/Exercise 1/Answers/LaTeX/document.pdf"
   "document.pdf"
   "document.log"
+  "e:/Documents/GitHub/Mathematical-Writing/Exercise 1/Answers/LaTeX/document.pdf"
   "e:/Documents/GitHub/Mathematical-Writing/Exercise 1/Answers/LaTeX/document.log"
+  "document.aux"
