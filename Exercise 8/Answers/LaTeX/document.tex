@@ -1,0 +1,110 @@
+\documentclass{article}
+\usepackage{fullpage,graphicx}
+\usepackage{amsmath,amsfonts,amsthm,amssymb,multirow,xcolor}
+\usepackage{enumitem}
+\begin{document}
+	\noindent
+	Mathematical Writing \hfill \textbf{Exercise VIII} \newline 
+	{17-Jun-2019} \hfill Pouya Aghahoseini
+	
+	\noindent
+	\rule{\linewidth}{0.4pt}
+	\textbf{\large\color{blue} Exercise 7.1}   \textbf{You are given cryptic proofs of mathematical statements. Rewrite them
+    in a good style, with plenty of explanations. }
+	
+	\begin{enumerate}
+		\item 
+        A point on the first line is represented by the position vector
+        \[l(\lambda)=(4,5,1)^{T} + \lambda (1,1,1)^{T} = (4+\lambda,5+\lambda,1+\lambda)^{T} \]
+        for some real number $\lambda$. Similarly, a point on the second line has position vector
+        \[m(\mu)= (5, −4, 0)^{T} + \mu (2, −3, 1)^{T} + (5 + 2μ, −4 − 3μ, μ)^{T} \]
+        for some real $\mu$. For the lines to intersect, there must exist values of $\lambda$ and $\mu$ for
+        which the two position vectors are the same, namely
+        \[ l(\lambda) = m(\mu) \]
+        The above vector equation corresponds to three scalar equations:
+        \[ 4 + \lambda = 5 + 2\mu \]
+        \[ 5 + \lambda = -4 - 3\mu \]
+        \[ 1 + \lambda = \mu \]
+        Eliminating $\mu$ from equations, we obtain
+        \[ 4 + \lambda = 5 + 2(1+\lambda) \]
+        which yields the solution $\lambda$ = −3, $\mu$ = −2. This solution satisfies all three equations.
+        Substituting these values in first two equations, we obtain
+        \[ l(−3) = m(−2) = (1, 2, −2)^{T}\]
+        which is the position vector of the common point of the two lines.
+		\item 
+        A point where the function assumes its minimum or maximum value is where its derivative equals zero.
+        Also if the second derivative of a function at the corresponding point is positive or negative, the function is curved outward or invard respectively.
+        The derivative function of f is 
+        \[ f(x) = 12x(x2 + x + 1)\]
+        and the only root of it is 0.
+        the second derivative of f is always positive which implies that function f is curved outward and its minimum is at point 0.
+        by evaluating the value of f at 0, we find out that is is positive.
+        therefore we made sure that the function never assumes negative values and is always positive.
+        \item 
+        We have the line equation as
+        \[ l(x): y = ax - (\frac{a-1}{2})^{2} \]
+        and the parabola equation as
+        \[ p(x): y = x^{2} + x\]
+        In order to assert whether the line is tangent to the parabola, we need to check two contraints:\\
+        at a given point $x_{0}$:
+        $$(i) l(x_{0})=p(x_{0})$$
+        $$(ii) l^{'}(x_{0})=p^{'}(x_{0})$$
+        by solving the first equation with some straight forward calculations we find that $x_{0}=\frac{a-1}{2}$
+        and $x_{0}$ also satisfies the second equation which involves the second derivatives.
+        Eq.(i) implies that line and parabola intersect at $x_{0}$ and Eq.(ii) implies that their slopes are equal, therefore they are tangent.
+	\end{enumerate}
+	
+	\text{}\\
+	\textbf{\large\color{blue} Exercise 7.2} \textbf{The following text has several faults: (a) explain what they are; (b)
+    write an appropriate revision.}\\
+    \begin{enumerate}[label=(\alph*)]
+    \item  
+    The statement of the theorem is imprecise in several respects.\\
+    The nature of the numbers x and y is not specified (the inequality would be meaningless for complex numbers).
+    The case in which one of x or y is zero should be excluded, since in this case the
+    left-hand side of the inequality is undefined.
+    The statement is false unless the inequality is made non-strict; indeed the equality
+    holds for infinitely many values of x and y.\\
+    There are several flaws in the proof\\
+    The basic deduction is carried out in the wrong direction, which proves nothing.
+    (Proving that P ⇒ True gives no information about P.)
+    The assertion ‘the last equation is trivially true’ is, in fact, false for $x = y$.
+    The writing is inadequate, without sufficient explanations, and also imprecise (the
+    expression $(x − y)2 >$ 0 is an inequality, not an equation).
+    \item
+    Revised statement:
+    Theorem: For all nonzero real numbers x and y, the following holds:\\
+    \[ \frac{ x^{2}+y^{2} }{|xy|} \geq 2 \]
+    Proof: Let x and y be real numbers, with $xy = 0$. We shall deduce our result from
+    the inequality $(x ± y)^{2} \geq 0$. We begin with the chain of implications:
+    \[ (x ± y)^{2} \geq 0 ⇒ x^{2} ± 2xy + y^{2} \geq 0 ⇒ x^{2} + y^{2} \geq ∓ 2xy\],
+    Now, since xy is non-zero, we divide both sides of the rightmost inequality by |xy|,
+    to obtain
+    \[ \frac{ x^{2}+y^{2} }{|xy|} \geq  ∓ 2\frac{xy}{|xy|}\]
+    The expression $xy/|xy|$ is equal to 1 or −1, and by choosing an appropriate sign we
+can ensure that $±xy/|xy| = 1$. Our proof is complete.
+\end{enumerate}
+    
+    \text{}\\
+	\textbf{\large\color{blue} Exercise 7.4} \textbf{Write the first few sentences of the proof of
+    each statement, introducing all relevant notation in an
+    appropriate order, and identifying the RTP.}\\
+	\begin{enumerate}
+        \item
+        Let X be a compact set, and let f be a continuous function
+        over X. RTP: f is uniformly continuous.
+        \item
+        Let F be a field, and let V be a valuation of f with prime charachteristics. RTP: V is non-archimedean.
+        \item
+        Let f(x) be a polynomial with integer coefficients, and assume that f is not a
+        constant. RTP: There is an integer n such that f(n) is not prime.
+        \item
+        Let X:[a,b] be a closed interval, and assume f(x) be a real function continuous in X.
+        RTP: for all points x in X, f(x) is between maximum and minimum of f.
+        \item
+        Let X be a subset of a metric space, and assume $X^{'}$ be its complement.
+        RTP: (i) We prove that X is open if $X^{'}$ is closed.\\
+        (ii) We prove that $X^{'}$ is closed if X is open.
+        
+    \end{enumerate}
+\end{document}\item
