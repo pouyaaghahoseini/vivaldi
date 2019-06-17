@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1560773645 "e:/Documents/GitHub/Mathematical-Writing/Exercise 7/Answers/LaTeX/document.tex" "e:/Documents/GitHub/Mathematical-Writing/Exercise 7/Answers/LaTeX/document.pdf" "document" 1560773658
+["pdflatex"] 1560773645 "e:/Documents/GitHub/Mathematical-Writing/Exercise 7/Answers/LaTeX/document.tex" "e:/Documents/GitHub/Mathematical-Writing/Exercise 7/Answers/LaTeX/document.pdf" "document" 1560773685
   "c:/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1538233286 3332 103109f5612ad95229751940c61aada0 ""
   "c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1538230959 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1538230959 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -58,12 +58,12 @@
   "c:/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1538241832 4216518 3ab882aef1e513d47cd58a128eca72db ""
   "c:/texlive/2018/texmf.cnf" 1538241569 673 4ae7b2f49cee444c5343a45b5d0f169c ""
   "document.aux" 1560773647 8 a94a2480d3289e625eea47cd1b285758 ""
-  "document.tex" 1560773657 2819 3ca914d04f4f01cf0b882881e1bcd55d ""
+  "document.tex" 1560773684 2819 3ca914d04f4f01cf0b882881e1bcd55d ""
   "e:/Documents/GitHub/Mathematical-Writing/Exercise 7/Answers/LaTeX/document.aux" 1560773647 8 a94a2480d3289e625eea47cd1b285758 ""
-  "e:/Documents/GitHub/Mathematical-Writing/Exercise 7/Answers/LaTeX/document.tex" 1560773657 2819 3ca914d04f4f01cf0b882881e1bcd55d ""
+  "e:/Documents/GitHub/Mathematical-Writing/Exercise 7/Answers/LaTeX/document.tex" 1560773684 2819 3ca914d04f4f01cf0b882881e1bcd55d ""
   (generated)
-  "e:/Documents/GitHub/Mathematical-Writing/Exercise 7/Answers/LaTeX/document.log"
-  "document.pdf"
+  "document.aux"
   "document.log"
   "e:/Documents/GitHub/Mathematical-Writing/Exercise 7/Answers/LaTeX/document.pdf"
-  "document.aux"
+  "e:/Documents/GitHub/Mathematical-Writing/Exercise 7/Answers/LaTeX/document.log"
+  "document.pdf"
